@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
+    "build": "NODE_ENV='production' webpack -p",
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "babel": {
